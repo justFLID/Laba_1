@@ -6,10 +6,10 @@ class Main
 {
     public static void main(String[] args)
     {
-
         System.out.println("Введите текст: ");
         Scanner input_data = new Scanner(System.in);
         String text = input_data.nextLine();
+        
         int n = text.length();
         char[] str = new char[n];
         for (int i = 0; i < n; i++)
